@@ -5,7 +5,7 @@ import Navbar from "components/Navbar";
 export const links = () => [{ rel: "stylesheet", href: tailwindCssStyleSheet }];
 export const meta = () => [{ title: "Crypto Currency Tracker" }];
 
-export default function App() {
+const Root = () => {
  return (
   <html lang="en">
    <head>
@@ -25,4 +25,5 @@ export default function App() {
    </body>
   </html>
  );
-}
+};
+export default Root;

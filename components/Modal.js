@@ -10,7 +10,7 @@ const Modal = ({ open, onClose, children, actionBtnText = "Save" }) => {
      </svg>
     </button>
     <div className="modal-action">
-     <button className="btn capitalize	" onClick={onClose}>
+     <button className="btn capitalize" onClick={onClose}>
       Close
      </button>
      <button type="submit" className="btn btn-primary capitalize">
